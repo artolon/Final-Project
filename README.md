@@ -31,3 +31,10 @@ You must submit a link to your group github repository with:
 - Write up a summary of each step you have gone through using markdown.
 - Code should be neat and well documented
 - Use a common repository for your team
+
+
+## Our data set
+
+Link to repository:
+
+https://mushroom.mathematik.uni-marburg.de/files/data/data/
