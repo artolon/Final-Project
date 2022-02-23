@@ -37,4 +37,5 @@ You must submit a link to your group github repository with:
 
 Link to repository:
 
-https://mushroom.mathematik.uni-marburg.de/files/data/data/
+https://mushroom.mathematik.uni-marburg.de/files/data/data/ - UCI
+https://www.kaggle.com/uciml/mushroom-classification?select=mushrooms.csv - Kaggle
