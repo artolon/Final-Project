@@ -43,3 +43,6 @@ Link to repository:
 https://mushroom.mathematik.uni-marburg.de/files/data/data/ - UCI
 
 https://www.kaggle.com/uciml/mushroom-classification?select=mushrooms.csv - Kaggle
+
+## Slide draft
+https://docs.google.com/presentation/d/1X5cE83nUAi4FVP8rXjQyWnQ9bt47O6GV9KAN8dsO5Bg/edit?usp=sharing 
