@@ -32,10 +32,17 @@ You must submit a link to your group github repository with:
 - Code should be neat and well documented
 - Use a common repository for your team
 
+## Lucid Chart link
+https://lucid.app/lucidchart/58e30491-ea36-4f66-a05b-6b3a68ba9fb2/edit?page=0_0&invitationId=inv_239d2085-b6dc-4e70-be0d-dc8b95367e05#
+
 
 ## Our data set
 
 Link to repository:
 
 https://mushroom.mathematik.uni-marburg.de/files/data/data/ - UCI
+
 https://www.kaggle.com/uciml/mushroom-classification?select=mushrooms.csv - Kaggle
+
+## Slide draft
+https://docs.google.com/presentation/d/1X5cE83nUAi4FVP8rXjQyWnQ9bt47O6GV9KAN8dsO5Bg/edit?usp=sharing 
