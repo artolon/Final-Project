@@ -2,7 +2,7 @@
 
 ## Mushroom Classification: Determining whether a mushroom is poisonous or edible
 *Sakshi and Abbie*
-*Presented on March 9, 2022
+*Presented on March 9, 2022*
 
 ## Link to presentation
 https://docs.google.com/presentation/d/1X5cE83nUAi4FVP8rXjQyWnQ9bt47O6GV9KAN8dsO5Bg/edit?usp=sharing 
