@@ -1,48 +1,56 @@
 # Final-Project
 
-## Due Wednesday, March 9th, 2022. Presentations will occur on this day
-You will be highlighting everything you have learned during this course in the final presentation. 
+## Mushroom Classification: Determining whether a mushroom is poisonous or edible
+*Sakshi and Abbie*
+*Presented on March 9, 2022
 
-**Requirements**
-You will need to work in your team of 2-3 people to complete the following:
+## Link to presentation
+https://docs.google.com/presentation/d/1X5cE83nUAi4FVP8rXjQyWnQ9bt47O6GV9KAN8dsO5Bg/edit?usp=sharing 
 
-- Use an api or other data source to present at least two and no more than five advanced data science techniques including supervised, unsupervised, or reinforced learning techniques we either have or have not discussed in class. These should have high performance (>80% precision and recall, or related performance metric). If not, you need to enhance your preprocessing, clean your data better, or utilize one of the other techniques we have discussed. You are free to use techniques we have not discussed, as well.
-you will likely need to create some visuals to understand your data before you dive into creating models. It may or may not make sense to include those visuals in your presentation.
+## How to Navigate this Repo:
+This repo is organized into 3 primary deliverables
+1. ETL code, entitled "Mushroom_ETL"
+2. Exploratory Analysis, entitled "Part1_Mushroom-Exploratory-Analysis"
+3. Data Models, entitled "Part2_Mushroom-Models"
 
-- Store the data you are using for your analysis in a database and use ETL to get it there. Create a data model. You are welcome to try using a cloud database to store your data, but you do not have to.
-- Create a presentation of no more than 30 slides with your findings.
-- Plan to share your model code in your presentation and make sure your code and explanations are as clean as possible.
-- This project is focused on the models themselves, so you dont need to share ETL code in your presentation. In fact, please DO NOT unless there is a good reason to do so.
-- Be prepared to give a 10-15 minute presentation. Do NOT go over 15 minutes. This is also an exercise in planning!
+Please note: It is advised to view "Part1" before "Part2"
 
-**Deliverables**
-You must submit a link to your group github repository with:
-- A jupyter notebook with all your code in it.
-- A data model of the data stored in your database and a separate notebook or script with the ETL.
-- A readme.md file in your repo that clearly outlines the techniques used and findings.
-- A presentation that tells the story of your data and what you are predicting.
-- Be prepared to give your presentation. This is strictly timeboxed at 15 minutes.
+The "codebook" for our data set is also included in this repo, for anyone interested in additional detail. 
 
-**Guidelines for your notebook:**
-- Make sure much of your code is stored in functions. 
-- - Try to transition out of the script mentality and more to reusable code.
-- Be careful to clearly show steps for preprocessing, training, validating, and predicting.
-- Make sure you are not overfitting or underfitting your model. Specify how you know.
-- Write up a summary of each step you have gone through using markdown.
-- Code should be neat and well documented
-- Use a common repository for your team
+## Data Science Techniques Utilized in this Project:
+1. Logistic Regression
+2. KNN
+3. SVM Classification
+4. Random Forest
 
-## Lucid Chart link
-https://lucid.app/lucidchart/58e30491-ea36-4f66-a05b-6b3a68ba9fb2/edit?page=0_0&invitationId=inv_239d2085-b6dc-4e70-be0d-dc8b95367e05#
+## Data Model
+![mushroomdatamodel](https://user-images.githubusercontent.com/59490033/157165566-76442898-f9a3-4f14-b615-29f061ce1169.PNG)
+
+## Findings from our Project:
+If you have any doubt whether a mushroom is poisonous or edible, you might just need to do a "sniff" test! If the odor is unpleasant, it is almost certainly poisonous. Otherwise, the mushroom is likely safe to eat.
+
+To determine this, we computed 4 different classification models, each with their own tuning methods applied. We split our data into training (70%) and testing (30%) sets. We fit our model to the training data and evaluated the model on our testing data. Using these methods, we achieved extremely high accuracy with every model. More details below.
+
+**Which model was the best?**
+
+Every model we tested had extremely high performance. Therefore, we were able to select the "best of the best." The Random Forest Model and the SVM Model both performed equally well, with accuracy of 99% and AUC score of 99.91%. However, because Random Forest is an ensemble method (which helps guard against overfitting) we can select that as our best model.
+
+**How we determined which model is the best.**
+
+There are several ways to evaluate a classification model's performance, such as:
+
+Precision/Recall
+Accuracy score
+AUC score
+Considering all these parameters we evaluated our models accordingly. Because each individual metric was so high, we selected the most superior model based on the highest overall accuracy score, as well as the AUC score. This left the Random Forest and the SVM. We selected the Random Forest, as it is an ensemble learning method, which means it is less likely to overfit.
+
+*For more details, please refer to Part2 notebook in this repo
 
 
-## Our data set
+## Our data source
 
 Link to repository:
 
 https://mushroom.mathematik.uni-marburg.de/files/data/data/ - UCI
 
 https://www.kaggle.com/uciml/mushroom-classification?select=mushrooms.csv - Kaggle
-
-## Slide draft
-https://docs.google.com/presentation/d/1X5cE83nUAi4FVP8rXjQyWnQ9bt47O6GV9KAN8dsO5Bg/edit?usp=sharing 
