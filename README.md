@@ -25,7 +25,7 @@ The "codebook" for our data set is also included in this repo, for anyone intere
 4. Random Forest
 
 ## Data Model
-![mushroomdatamodel](https://user-images.githubusercontent.com/59490033/157165566-76442898-f9a3-4f14-b615-29f061ce1169.PNG)
+![mushroom data model (5)](https://user-images.githubusercontent.com/90784468/157198105-8e299299-b375-4330-aa79-e1b893a4e3bd.png)
 
 ## Findings from our Project:
 If you have any doubt whether a mushroom is poisonous or edible, you might just need to do a "sniff" test! If the odor is unpleasant, it is almost certainly poisonous. Otherwise, the mushroom is likely safe to eat.
