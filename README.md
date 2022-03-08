@@ -50,7 +50,7 @@ Considering all these parameters we evaluated our models accordingly. Because ea
 
 ## Our data source
 
-Link to repository:
+Link to UCI repository:
 
 https://mushroom.mathematik.uni-marburg.de/files/data/data/ - UCI
 
